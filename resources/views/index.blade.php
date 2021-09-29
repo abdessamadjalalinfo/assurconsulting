@@ -80,7 +80,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{route('index')}}" class="navbar-brand nav-link">
-                            <img src="log.png" width="200px" alt="branding logo">
+                            <img src="log.png" width="150px" alt="branding logo">
                         </a>
                     </li>
                     <li class="nav-item d-md-none float-right"><a data-toggle="collapse" data-target="#navbar-mobile10"
