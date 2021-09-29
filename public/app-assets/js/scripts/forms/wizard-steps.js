@@ -20,7 +20,7 @@ $(".number-tab-steps").steps({
     onFinished: function (event, currentIndex) {
         $.ajax({
         type: "POST",
-        url: '/store',
+        url: 'public/store',
         data: {
                 nom: document.getElementById("firstName3").value,
                 
