@@ -111,7 +111,7 @@ $(".steps-validation").steps({
     {
         $.ajax({
         type: "POST",
-        url: '/store',
+        url: '/public/store',
         data: {
             nom: document.getElementById("firstName3").value,
             _token: $("input[name=_token]").val(),
@@ -133,7 +133,7 @@ $(".steps-validation").steps({
             console.log(1);
         }
         });
-        alert("Submitted!000");
+        alert("Votre demande de devis a été enregistré");
     }
 });
 
