@@ -7,24 +7,21 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
         rel="stylesheet">
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
-    <!-- BEGIN VENDOR CSS-->
+   
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/vendors.css">
     <link rel="icon" href="log.png" />
-    <!-- END VENDOR CSS-->
-    <!-- BEGIN MODERN CSS-->
+    
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/app.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/custom-rtl.css">
-    <!-- END MODERN CSS-->
-    <!-- BEGIN Page Level CSS-->
+    
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/core/menu/menu-types/horizontal-menu.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/plugins/animate/animate.css">
     <link rel="stylesheet" type="text/css" href="app-assets/fonts/simple-line-icons/style.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/core/colors/palette-callout.css">
-    <!-- END Page Level CSS-->
-    <!-- BEGIN Custom CSS-->
+   
     <link rel="stylesheet" type="text/css" href="assets/css/style-rtl.css">
-    <!-- END Custom CSS-->
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="log.png" type="image/x-icon" />
@@ -67,7 +64,7 @@
 </head>
 
 <body>
-    <nav
+     <nav
         class=" header-navbar navbar-expand-sm navbar navbar-with-menu navbar-light navbar-shadow border-grey border-lighten-2">
         <div class="navbar-wrapper">
             <div class="navbar-header">
@@ -90,11 +87,11 @@
             </div>
             <div class="navbar-container content">
                 <div id="navbar-mobile10" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav ">
-                        <li class="nav-item"><a class="nav-link active" href="{{route('index')}}">Accueil</a></li>
-                        <li class="nav-item "><a class="nav-link" style="color:#464855"  href="{{route('devis')}}">Demande de devis</a></li>
+                    <ul class="nav navbar-nav mr-auto">
+                        
+                        <li class="nav-item"><a class="nav-link active" href="{{route('devis')}}" style="font-weight: bold; text-color:white;">Demande de devis</a></li>
                     </ul>
-                    
+    
                 </div>
             </div>
         </div>
@@ -106,13 +103,13 @@
             <div class="item item-1">
                 
                 <div class="img-fill">
-                    <div class="text-content">
+                    <div style="margin: auto;" class="text-content">
                         <h6>ASSURCONSULTING</h6>
                         <h4>« Une solution adaptée pour une satisfaction assurée »</h4>
                         <p>Une sélection drastique des partenaires santé <br>
                         Pour bénéficier du meilleur rapport qualité prix, nos experts comparent pour vous plus de 450
                         mutuelles et formules</p>
-                        <a href="{{route('devis')}}" class="filled-button">Demander un devis</a>
+                        <a href="{{route('devis')}}" style="margin: auto;font-size:35px;" class="filled-button buttonAnimation" data-animation="tada">Demander un devis</a>
                     </div>
                 </div>
             </div>
@@ -128,7 +125,7 @@
     margin-bottom: 26px;
 ">
         <div class="col-lg-5 col-md-12 col-xs-12"><img style="border-radius: 30px;" class="col col-md-12 col-xs-12"
-                src="comparateur-mutuelle-senior.webp" alt=""></div>
+                src="assurance-sante-section.webp" alt=""></div>
         <div class="col-lg-6 col-md-12 col-xs-12">
             <h1 style="    text-align: center;
         font-family: Poppins;
@@ -478,7 +475,7 @@
 
     </div>
     <div style="text-align: center;">
-        <a type="button" href="{{route('devis')}}" class="btn btn-success width-300 buttonAnimation" data-animation="tada">Demander un
+        <a style="color:white;" type="button" href="{{route('devis')}}" class="btn bg-success bg-darken-4 width-300 buttonAnimation" data-animation="tada">Demander un
             devis</a>
     </div>
    <div style=" margin-top: 30px;">
@@ -538,6 +535,9 @@
         
         </section>
    </div>
+
+
+
 <footer class="footer footer-light footer-static footer-transparent">
     <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
         <span class="float-md-left d-block d-md-inline-block">Copyright © 2021 <a class="text-bold-800 grey darken-2"

@@ -18,13 +18,17 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('/test', function () {
+    return view('test');
+});
 Route::get('/', function () {
     return view('index');
 })->name('index');
 
 Route::get('/devis', function () {
-    return view('devis');
+    return view('devis1');
 })->name('devis');
+
 Route::post('/store', function (Request $request) {
     $lead = new Lead();
     $lead->nom = $request->nom;
@@ -35,6 +39,7 @@ Route::post('/store', function (Request $request) {
     $lead->regime  = $request->regime;
     $lead->qui = $request->qui;
     $lead->ville = $request->ville;
+    $lead->civilite = $request->civilite;
     $lead->save();
     return $lead;
 });

@@ -119,9 +119,11 @@ $(".steps-validation").steps({
             email:document.getElementById("emailAddress5").value,
             phone:document.getElementById("phoneNumber3").value,
             date: document.getElementById("date1").value,
-            regime:$("input[name=regime]").val(),
+            regime:$("input[name=regime]:checked").val(),
             qui:document.getElementById("eventType3").value,
-            ville:document.getElementById("eventName3").value,
+            ville: document.getElementById("eventName3").value,
+            civilite: $("input[name=civilite]").val(),
+            
 
                 
             },
@@ -133,7 +135,7 @@ $(".steps-validation").steps({
             console.log(1);
         }
         });
-        alert("Submitted!000");
+        alert("Votre demande a été bien enregistré");
     }
 });
 

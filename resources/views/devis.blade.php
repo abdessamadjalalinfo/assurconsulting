@@ -53,7 +53,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{route('index')}}" class="navbar-brand nav-link">
-                            <img src="log.png" width="200px" alt="branding logo">
+                            <img src="log.png" width="fa-rotate-2700px" alt="branding logo">
                         </a>
                     </li>
                     <li class="nav-item d-md-none float-right"><a data-toggle="collapse" data-target="#navbar-mobile10"
@@ -240,7 +240,7 @@
                                                 color: #fbc02d;
                                                 text-transform: capitalize;
                                             " class="text-uppercase">Comment choisir sa mutuelle en ligne ?</h4>
-                    <p>Le comparateur d’assurance Assurconsulting.fr vous permet de définir précisément vos attentes. A
+                    <p>Le comparateur d’assurance Assurconsulting.fr vous permet de définir précisément vos attentes. A
                         l’aide de notre formulaire en ligne, décrypter les taux d’indemnisation qui correspondent à votre
                         profil pour trouver votre complémentaire santé.</p>
                 </div>
@@ -263,7 +263,7 @@
                                         chirurgical),
                                         d’optique (entre 50€ et 250€ remboursés pour vos lunettes) et de soins spécifiques
                                         (jusqu’à
-                                        300% sur vos couronnes et implants) : vous serez certain d’être bien couvert sans
+                                        300% sur vos couronnes et implants) : vous serez certain d’être bien couvert sans
                                         vous ruiner.</span>
                                 </div>
     
@@ -279,7 +279,7 @@
                                 <div class="media-body p-2">
                                     <h2 style="text-align: center;">Des tarifs qui changent en fonction de votre zone
                                         géographique</h2>
-                                    <span>En effet, nous constatons qu’il existe une différence de coûts selon la ville où
+                                    <span>En effet, nous constatons qu’il existe une différence de coûts selon la ville où
                                         vous habitez.
                                         Les
                                         personnes vivant en Île-de-France paieront une cotisation différente que ceux vivant
@@ -311,9 +311,9 @@
                                         (hospitalisation,
                                         maladie
                                         rare, besoin d’une assistance spécifique etc…). Prenons par exemple : <br>
-                                        Une mutuelle jeune : elle est souvent moins protectrice et ainsi moins chère ;<br>
-                                        Une mutuelle familiale : elle va couvrir les parents mais aussi les enfants ;<br>
-                                        Une mutuelle senior : avec un maximum de garanties pour avoir l’assurance d’accéder
+                                        Une mutuelle jeune : elle est souvent moins protectrice et ainsi moins chère ;<br>
+                                        Une mutuelle familiale : elle va couvrir les parents mais aussi les enfants ;<br>
+                                        Une mutuelle senior : avec un maximum de garanties pour avoir l’assurance d’accéder
                                         à
                                         un plus grand nombre de soins. Elle moyenne un coût bien plus important.<br>
                                         Cela s’explique par le fait que le niveau de protection n’est pas le même. Un senior
