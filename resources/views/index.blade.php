@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="apple-touch-icon" href="log.png">
-    <link rel="shortcut icon" type="image/x-icon" href="log.png">
+    <link rel="apple-touch-icon" href="log.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="log.jpg">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
         rel="stylesheet">
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
    
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/vendors.css">
-    <link rel="icon" href="log.png" />
+    <link rel="icon" href="log.jpg" />
     
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/app.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/custom-rtl.css">
@@ -20,12 +20,12 @@
     <link rel="stylesheet" type="text/css" href="app-assets/fonts/simple-line-icons/style.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/core/colors/palette-callout.css">
    
-    <link rel="stylesheet" type="text/css" href="assets/css/style-rtl.css">
+   
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="log.png" type="image/x-icon" />
-    <title>ASSURCONSULTING</title>
+    <link rel="icon" href="log.jpg" type="image/x-icon" />
+    <title>HN Assur</title>
     
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.css">
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
@@ -59,8 +59,7 @@
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/horizontal-menu.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.css">
     <!-- END Page Level CSS-->
-    <!-- BEGIN Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
 </head>
 
 <body>
@@ -68,16 +67,17 @@
         class=" header-navbar navbar-expand-sm navbar navbar-with-menu navbar-light navbar-shadow border-grey border-lighten-2">
         <div class="navbar-wrapper">
             <div class="navbar-header">
-                <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item mobile-menu d-md-none float-left">
+                <ul class="nav navbar-nav ">
+                <li class="nav-item mobile-menu d-md-none float-left">
                         <button class="nav-link menu-toggle hamburger hamburger--arrow js-hamburger is-active">
                             <span class="hamburger-box"></span>
                             <span class="hamburger-inner"></span>
                         </button>
                     </li>
+                   
                     <li class="nav-item">
                         <a href="{{route('index')}}" class="navbar-brand nav-link">
-                            <img src="log.png" width="200px" alt="branding logo">
+                            <img src="log.jpg" width="200px" alt="branding logo">
                         </a>
                     </li>
                     <li class="nav-item d-md-none float-right"><a data-toggle="collapse" data-target="#navbar-mobile10"
@@ -85,30 +85,35 @@
                                 class="la la-ellipsis-h pe-2x icon-rotate-right"></i></a></li>
                 </ul>
             </div>
-            <div class="navbar-container content">
+            <div class="navbar-container content" style="margin-bottom: 10px;height: 100px;">
                 <div id="navbar-mobile10" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav mr-auto">
-                        
-                        <li class="nav-item"><a class="nav-link active" href="{{route('devis')}}" style="font-weight: bold; text-color:white;">Demande de devis</a></li>
+                        <li class="nav-item"><a class="nav-link " href="{{route('index')}}">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#" style="font-weight: bold;">Demande de devis</a></li>
                     </ul>
     
                 </div>
             </div>
         </div>
     </nav>
+     
     <div class="main-banner header-text" id="top">
         
+        
         <div class="Modern-Slider">
+            
             
             <div class="item item-1">
                 
                 <div class="img-fill">
+                    
                     <div style="margin: auto;" class="text-content">
-                        <h6>ASSURCONSULTING</h6>
-                        <h4>« Une solution adaptée pour une satisfaction assurée »</h4>
-                        <p>Une sélection drastique des partenaires santé <br>
+                        
+                        <h6 style='font-size: 32px;'>HN Assur</h6>
+                        <h4 style="font-size: 55px;">« Une solution adaptée pour une satisfaction assurée »</h4>
+                        <h6 style="font-size: 31px;">Une sélection drastique des partenaires santé <br>
                         Pour bénéficier du meilleur rapport qualité prix, nos experts comparent pour vous plus de 450
-                        mutuelles et formules</p>
+                        mutuelles et formules</h6>
                         <a href="{{route('devis')}}" style="margin: auto;font-size:35px;" class="filled-button buttonAnimation" data-animation="tada">Demander un devis</a>
                     </div>
                 </div>
@@ -139,7 +144,7 @@
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 25px;
         color: rgba(83, 83, 83, 1);"> Soins dentaires, hospitalisation, lunettes... Nous définissons vos garanties par
                 rapport à vos besoins
                 spécifiques et réels</p>
@@ -193,7 +198,7 @@
                                         font-family: Poppins;
                                         font-style: normal;
                                         font-weight: normal;
-                                        font-size: 20px;
+                                        font-size: 25px;
                                         color: rgba(83, 83, 83, 1);"> La société mutuelle a en commun avec la société
                         coopérative et avec
                         l&#39;association à but non
@@ -237,7 +242,7 @@
                                             <br>
                                             
                                             Grâce à un comparateur d’assurances santé en ligne comme celui que nous proposons sur
-                                            Assurconsulting.fr, vous comparez des dizaines de contrats faits pour vous pour choisir le plus
+                                            HN Assur.fr, vous comparez des dizaines de contrats faits pour vous pour choisir le plus
                                             intéressant en matière de services et de prix.
                                             Voici les éléments essentiels à connaître pour mettre en concurrence les différents contrats
                                             et devis de mutuelles que vous allez rencontrer :</p>
@@ -327,7 +332,7 @@
                                             color: #fbc02d;
                                             text-transform: capitalize;
                                         " class="text-uppercase">Comment choisir sa mutuelle en ligne ?</h4>
-                    <p>Le comparateur d’assurance Assurconsulting.fr vous permet de définir précisément vos attentes. A
+                    <p>Le comparateur d’assurance HN Assur.fr vous permet de définir précisément vos attentes. A
                     l’aide de notre formulaire en ligne, décrypter les taux d’indemnisation qui correspondent à votre
                     profil pour trouver votre complémentaire santé.</p>
                 </div>
@@ -431,7 +436,7 @@
                         </div>
                         <div class="card-content collapse show">
                             <div class="card-body ">
-                                <p class="card-text">Gagnez du temps grâce à Assurconsulting. Une seule comparaison vous permet d’avoir
+                                <p class="card-text">Gagnez du temps grâce à HN Assur. Une seule comparaison vous permet d’avoir
                                 un accompagnement dans votre démarche.</p>
                             </div>
                         </div>
@@ -498,35 +503,63 @@
                 <div class="card-content">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                             
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
                                     <span class="font-large-3 text-bold-300 info">
         
-                                        <img src="cocoon.png" alt="">
+                                        <img src="WAZARI.jpg" width="100px" alt="">
                                     </span>
                                 </div>
         
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
-                                    <span class="font-large-3 text-bold-300 danger"><img src="ag2r-la-mondiale.png"
-                                            alt=""></span>
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="Coverity.png" width="100px" alt="">
+                                    </span>
                                 </div>
         
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
-                                    <span class="font-large-3 text-bold-300 success"><img src="april-premium.png" alt=""></span>
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="logo_SPVIE_blanccartouchenoir_0.png" width="100px" alt="">
+                                    </span>
                                 </div>
         
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12">
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
-                                    <span class="font-large-3 text-bold-300 warning"><img src="les-menages-prevoyants.png"
-                                            alt=""></span>
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="logo-millicourtage-sansbase.jpg" width="100px" alt="">
+                                    </span>
                                 </div>
         
                             </div>
+                             <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="AESIO_logo.jpg" width="100px" alt="">
+                                    </span>
+                                </div>
+        
+                            </div>
+                             <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="2MA-MA-MEILLEURE-ASSURANCE-d.png" width="100px" alt="">
+                                    </span>
+                                </div>
+        
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -541,7 +574,7 @@
 <footer class="footer footer-light footer-static footer-transparent">
     <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
         <span class="float-md-left d-block d-md-inline-block">Copyright © 2021 <a class="text-bold-800 grey darken-2"
-                href="{{route('index')}}" target="_blank">ASSURCONSULTING </a>,
+                href="{{route('index')}}" target="_blank">HN Assur </a>,
             Tous les droits sont réservés. </span>
         <span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Hand-crafted &amp; Made with <i
                 class="ft-heart pink"></i></span>

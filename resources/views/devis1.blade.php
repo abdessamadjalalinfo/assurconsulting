@@ -2,6 +2,25 @@
 <html class="loading" lang="en" data-textdirection="ltr">
 
 <head>
+      <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
+  rel="stylesheet">
+  <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
+  rel="stylesheet">
+  <!-- BEGIN VENDOR CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/css/vendors.css">
+  <!-- END VENDOR CSS-->
+  <!-- BEGIN MODERN CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/css/app.css">
+  <!-- END MODERN CSS-->
+  <!-- BEGIN Page Level CSS-->
+  <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/horizontal-menu.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/forms/extended/form-extended.css">
+  <!-- END Page Level CSS-->
+  <!-- BEGIN Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
         rel="stylesheet">
@@ -16,7 +35,7 @@
     <meta name="keywords"
         content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
     <meta name="author" content="PIXINVENT">
-    <link rel="icon" href="log.png" />
+    <link rel="icon" href="log.jpg" />
     <title>Devis
     </title>
       <link rel="stylesheet" type="text/css" href="app-assets/css/vendors.css">
@@ -32,9 +51,9 @@
   <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/forms/checkboxes-radios.css">
   <!-- END Page Level CSS-->
   <!-- BEGIN Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="apple-touch-icon" href="log.png">
-    <link rel="shortcut icon" type="image/x-icon" href="log.png">
+ 
+    <link rel="apple-touch-icon" href="log.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="log.jpg">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
         rel="stylesheet">
@@ -54,6 +73,8 @@
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- END Page Level CSS-->
     <!-- END Custom CSS-->
 </head>
 
@@ -65,15 +86,16 @@
         <div class="navbar-wrapper">
             <div class="navbar-header">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item mobile-menu d-md-none float-left">
+                <li class="nav-item mobile-menu d-md-none float-left">
                         <button class="nav-link menu-toggle hamburger hamburger--arrow js-hamburger is-active">
                             <span class="hamburger-box"></span>
                             <span class="hamburger-inner"></span>
                         </button>
                     </li>
+                   
                     <li class="nav-item">
                         <a href="{{route('index')}}" class="navbar-brand nav-link">
-                            <img src="log.png" width="200px" alt="branding logo">
+                            <img src="log.jpg" width="200px" alt="branding logo">
                         </a>
                     </li>
                     <li class="nav-item d-md-none float-right"><a data-toggle="collapse" data-target="#navbar-mobile10"
@@ -81,7 +103,7 @@
                                 class="la la-ellipsis-h pe-2x icon-rotate-right"></i></a></li>
                 </ul>
             </div>
-            <div class="navbar-container content">
+            <div class="navbar-container content" style="height: 100px;">
                 <div id="navbar-mobile10" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link " href="{{route('index')}}">Accueil</a></li>
@@ -108,7 +130,7 @@
                             <div class="card">
                                 <div class="card-header">
                                   <center>
-                                      <img src="log.png" width="250px" alt="branding logo">
+                                      <img src="log.jpg" width="250px" alt="branding logo">
                                   </center>
                                     <h1 class="card-title" style="font-size:25px;font-weight: bold;" >Demande de devis</h1>
 
@@ -135,8 +157,7 @@
                                             <h6>Etape 1</h6>
                                             <fieldset>
                                                 <div class="row">
-                                                    
-                                                    <div class="col-md-5 offset-4">
+                                                     <div class="col-md-5 offset-3">
                                                          <div class="form-group">
                                                              <fieldset class="form-group">
                                                             <h1 style="font-size:25px;font-weight: bold;">Quelle est votre civilité? <span class="danger">*</span></h1>
@@ -154,74 +175,6 @@
                                                             </fieldset>
                                                          </div>
                                                      </div>
-                                                    <div class="col-md-7">
-                                                        <div class="form-group">
-                                                            <label style="font-size:25px;font-weight: bold;"  for="firstName3">
-                                                              Quel est votre Nom? :
-                                                                <span class="danger">*</span>
-                                                            </label>
-                                                            <input type="text" class="form-control required"
-                                                                id="firstName3" name="nom">
-                                                        </div>
-                                                    </div>
-                                                   <div class="col-md-7">
-                                                        <div class="form-group">
-                                                            <label style="font-size:25px;font-weight: bold;"  for="lastName3">
-                                                            Quel est votre Prénom? :
-                                                                <span class="danger">*</span>
-                                                            </label>
-                                                            <input type="text" class="form-control required"
-                                                                id="lastName3" name="prenom">
-                                                        </div>
-                                                </div>
-                                                </div>
-                                                <div class="row">
-                                                     <div class="col-md-7">
-                                                        <div class="form-group">
-                                                            <label style="font-size:25px;font-weight: bold;"  for="emailAddress5">
-                                                                Quel est votre Email ?  :
-                                                                <span class="danger">*</span>
-                                                            </label>
-                                                            <p>Vous allez recevoir un email qui récapitule votre comparaison</p>
-                                                           <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                        <span class="input-group-text" id="basic-addon3"><i class="la la-envelope"></i></span>
-                                                        </div>
-                                                       <input type="email" class="form-control required"
-                                                                id="emailAddress5" name="emailAddress">
-                                                    </div>
-                                                </div>
-                                                </div>
-                                                    <div class="col-md-7">
-                                                        <div class="form-group">
-                                                            <label style="font-size:25px;font-weight: bold;"  for="phoneNumber3">Quel est votre numéro de téléphone ? <span class="danger">*</span></label>
-                                                            
-                                                            <p>Promis, votre numéro de téléphone sera transmis uniquement aux assureurs avec lesquels vous souhaitez être mis en relation.</p>
-                                                            <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i class="la la-phone-square"></i></span>
-                                                            </div>
-                                                            <input type="tel" class="form-control" id="phoneNumber3">
-                                                            <div class="input-group-append">
-                                                            <span class="input-group-text"><i class="la la-mobile"></i></span>
-                                                            </div>
-                                                             </div>
-                                                        </div>
-                                                     </div>
-                                                <div class="col-md-7">
-                                                            <div class="form-group">
-                                                                <label style="font-size:25px;font-weight: bold;" for="date1">Quelle est votre date de naissance ?  <span class="danger">*</span></label>
-                                                              <input type="date" class="form-control" id="date1">
-                                                            </div>
-                                                    </div>
-                                                
-                                                </div>
-                                                
-                                            </fieldset>
-                                            <!-- Step 2 -->
-                                            <h6>Etape 2</h6>
-                                            <fieldset>
-                                                <div class="row">
                                                 <div class="col-md-12">
                                                     
                                                     <div class="form-group">
@@ -274,6 +227,75 @@
                                                    
                                                 </div>
                                             </fieldset>
+                                            <!-- Step 2 -->
+                                            <h6>Etape 2</h6>
+                                         
+                                             <fieldset>
+                                                <div class="row">
+                                                    
+                                                   
+                                                    <div class="col-md-7">
+                                                        <div class="form-group">
+                                                            <label style="font-size:25px;font-weight: bold;"  for="firstName3">
+                                                              Quel est votre Nom? :
+                                                                <span class="danger">*</span>
+                                                            </label>
+                                                            <input type="text" class="form-control required"
+                                                                id="firstName3" name="nom">
+                                                        </div>
+                                                    </div>
+                                                   <div class="col-md-7">
+                                                        <div class="form-group">
+                                                            <label style="font-size:25px;font-weight: bold;"  for="lastName3">
+                                                            Quel est votre Prénom? :
+                                                                <span class="danger">*</span>
+                                                            </label>
+                                                            <input type="text" class="form-control required"
+                                                                id="lastName3" name="prenom">
+                                                        </div>
+                                                </div>
+                                                </div>
+                                                <div class="row">
+                                                     <div class="col-md-7">
+                                                        <div class="form-group">
+                                                            <label style="font-size:25px;font-weight: bold;"  for="emailAddress5">
+                                                                Quel est votre Email ?  :
+                                                                <span class="danger">*</span>
+                                                            </label>
+                                                            <p>Vous allez recevoir un email qui récapitule votre comparaison</p>
+                                                           <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon3"><i class="la la-envelope"></i></span>
+                                                        </div>
+                                                       <input type="email" class="form-control required"
+                                                                id="emailAddress5" name="emailAddress">
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                    <div class="col-md-7">
+                                                        <div class="form-group">
+                                                            <label style="font-size:25px;font-weight: bold;"  for="phoneNumber3">Quel est votre numéro de téléphone ? <span class="danger">*</span></label>
+                                                            
+                                                            <p>Promis, votre numéro de téléphone sera transmis uniquement aux assureurs avec lesquels vous souhaitez être mis en relation.</p>
+                                                            <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                            <span class="input-group-text"><i class="la la-phone-square"></i></span>
+                                                            </div>
+                                                            <input type="tel" required class="form-control phone-inputmask" id="phoneNumber3">
+                                                            
+                                                             </div>
+                                                        </div>
+                                                     </div>
+                                                    <div class="col-md-7">
+                                                            <div class="form-group">
+                                                                <label style="font-size:25px;font-weight: bold;" for="date1">Quelle est votre date de naissance ?  <span class="danger">*</span></label>
+                                                              <input required type="date" class="form-control required" id="date1">
+                                                            </div>
+                                                    </div>
+                                                
+                                                </div>
+                                                
+                                            </fieldset>
                                             <!-- Step 3 -->
                                             <h6>Etape 3</h6>
                                             <fieldset>
@@ -288,7 +310,7 @@
                                                             <div class="input-group-prepend">
                                                             <span class="input-group-text" id="basic-addon3"><i class="la la-map-marker"></i></span>
                                                             </div>
-                                                           <input type="text" value="paris" class="form-control required"
+                                                           <input type="text" placeholder="75000" class="form-control required"
                                                                 id="eventName3" name="eventName">
                                                         </div>
                                                         
@@ -297,7 +319,7 @@
                                                 </div>
                                                
                                                 <label>
-                                                    <input checked type="checkbox" value=""> J'accepte de recevoir des offres personnalisées d'Assurconsulting
+                                                    <input checked type="checkbox" value=""> J'accepte de recevoir des offres personnalisées d'HN Assur
                                                 </label>
                                                 <label>
                                                     <input checked required type="checkbox" value=""> J'accepte les Conditions Générales d'Utilisation et d'être contacté par nos partenaires assurance santé (uniquement si
@@ -333,7 +355,7 @@
                                                 color: #fbc02d;
                                                 text-transform: capitalize;
                                             " class="text-uppercase">Comment choisir sa mutuelle en ligne ?</h4>
-                    <p>Le comparateur d’assurance Assurconsulting.fr vous permet de définir précisément vos attentes. A
+                    <p>Le comparateur d’assurance HN Assur.fr vous permet de définir précisément vos attentes. A
                         l’aide de notre formulaire en ligne, décrypter les taux d’indemnisation qui correspondent à votre
                         profil pour trouver votre complémentaire santé.</p>
                 </div>
@@ -356,7 +378,7 @@
                                         chirurgical),
                                         d’optique (entre 50€ et 250€ remboursés pour vos lunettes) et de soins spécifiques
                                         (jusqu’à
-                                        300% sur vos couronnes et implants) : vous serez certain d’être bien couvert sans
+                                        300% sur vos couronnes et implants) : vous serez certain d’être bien couvert sans
                                         vous ruiner.</span>
                                 </div>
     
@@ -372,7 +394,7 @@
                                 <div class="media-body p-2">
                                     <h2 style="text-align: center;">Des tarifs qui changent en fonction de votre zone
                                         géographique</h2>
-                                    <span>En effet, nous constatons qu’il existe une différence de coûts selon la ville où
+                                    <span>En effet, nous constatons qu’il existe une différence de coûts selon la ville où
                                         vous habitez.
                                         Les
                                         personnes vivant en Île-de-France paieront une cotisation différente que ceux vivant
@@ -404,9 +426,9 @@
                                         (hospitalisation,
                                         maladie
                                         rare, besoin d’une assistance spécifique etc…). Prenons par exemple : <br>
-                                        Une mutuelle jeune : elle est souvent moins protectrice et ainsi moins chère ;<br>
-                                        Une mutuelle familiale : elle va couvrir les parents mais aussi les enfants ;<br>
-                                        Une mutuelle senior : avec un maximum de garanties pour avoir l’assurance d’accéder
+                                        Une mutuelle jeune : elle est souvent moins protectrice et ainsi moins chère ;<br>
+                                        Une mutuelle familiale : elle va couvrir les parents mais aussi les enfants ;<br>
+                                        Une mutuelle senior : avec un maximum de garanties pour avoir l’assurance d’accéder
                                         à
                                         un plus grand nombre de soins. Elle moyenne un coût bien plus important.<br>
                                         Cela s’explique par le fait que le niveau de protection n’est pas le même. Un senior
@@ -453,36 +475,63 @@
                 <div class="card-content">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                             
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
                                     <span class="font-large-3 text-bold-300 info">
-    
-                                        <img src="cocoon.png" alt="">
+        
+                                        <img src="WAZARI.jpg" width="100px" alt="">
                                     </span>
                                 </div>
-    
+        
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
-                                    <span class="font-large-3 text-bold-300 danger"><img src="ag2r-la-mondiale.png"
-                                            alt=""></span>
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="Coverity.png" width="100px" alt="">
+                                    </span>
                                 </div>
-    
+        
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
-                                    <span class="font-large-3 text-bold-300 success"><img src="april-premium.png"
-                                            alt=""></span>
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="logo_SPVIE_blanccartouchenoir_0.png" width="100px" alt="">
+                                    </span>
                                 </div>
-    
+        
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12">
+                            <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
                                 <div class="float-left pl-2">
-                                    <span class="font-large-3 text-bold-300 warning"><img src="les-menages-prevoyants.png"
-                                            alt=""></span>
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="logo-millicourtage-sansbase.jpg" width="100px" alt="">
+                                    </span>
                                 </div>
-    
+        
                             </div>
+                             <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="AESIO_logo.jpg" width="100px" alt="">
+                                    </span>
+                                </div>
+        
+                            </div>
+                             <div class="col-lg-2 col-md-6 col-12 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="2MA-MA-MEILLEURE-ASSURANCE-d.png" width="100px" alt="">
+                                    </span>
+                                </div>
+        
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -871,7 +920,7 @@ composant le corps humain.</p>
 <footer class="footer footer-light footer-static footer-transparent">
     <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
         <span class="float-md-left d-block d-md-inline-block">Copyright © 2021 <a class="text-bold-800 grey darken-2"
-                href="{{route('index')}}" target="_blank">ASSURCONSULTING
+                href="{{route('index')}}" target="_blank">HN Assur
             </a>,
             Tous les droits sont réservés. </span>
         <span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Hand-crafted &amp; Made with <i
@@ -936,6 +985,34 @@ $("input:checkbox").on('click', function() {
   }
 });
   </script>
+    <script src="app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+  <!-- BEGIN VENDOR JS-->
+  <!-- BEGIN PAGE VENDOR JS-->
+  <script type="text/javascript" src="app-assets/vendors/js/ui/jquery.sticky.js"></script>
+  <script src="app-assets/vendors/js/forms/extended/typeahead/typeahead.bundle.min.js"
+  type="text/javascript"></script>
+  <script src="app-assets/vendors/js/forms/extended/typeahead/bloodhound.min.js"
+  type="text/javascript"></script>
+  <script src="app-assets/vendors/js/forms/extended/typeahead/handlebars.js"
+  type="text/javascript"></script>
+  <script src="app-assets/vendors/js/forms/extended/inputmask/jquery.inputmask.bundle.min.js"
+  type="text/javascript"></script>
+  <script src="app-assets/vendors/js/forms/extended/formatter/formatter.min.js"
+  type="text/javascript"></script>
+  <script src="app-assets/vendors/js/forms/extended/maxlength/bootstrap-maxlength.js"
+  type="text/javascript"></script>
+  <script src="app-assets/vendors/js/forms/extended/card/jquery.card.js" type="text/javascript"></script>
+  <!-- END PAGE VENDOR JS-->
+  <!-- BEGIN MODERN JS-->
+  <script src="app-assets/js/core/app-menu.js" type="text/javascript"></script>
+  <script src="app-assets/js/core/app.js" type="text/javascript"></script>
+  <script src="app-assets/js/scripts/customizer.js" type="text/javascript"></script>
+  <!-- END MODERN JS-->
+  <!-- BEGIN PAGE LEVEL JS-->
+  <script src="app-assets/js/scripts/forms/extended/form-typeahead.js" type="text/javascript"></script>
+  <script src="app-assets/js/scripts/forms/extended/form-inputmask.js" type="text/javascript"></script>
+  <script src="app-assets/js/scripts/forms/extended/form-formatter.js" type="text/javascript"></script>
+  <script src="app-assets/js/scripts/forms/extended/form-maxlength.js" type="text/javascript"></script>
+  <script src="app-assets/js/scripts/forms/extended/form-card.js" type="text/javascript"></script>
 
 </html>
-

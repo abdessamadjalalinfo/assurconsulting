@@ -15,12 +15,12 @@ $(".number-tab-steps").steps({
     transitionEffect: "fade",
     titleTemplate: '<span class="step">#index#</span> #title#',
     labels: {
-        finish: 'Submit'
+        finish: 'Valider'
     },
     onFinished: function (event, currentIndex) {
         $.ajax({
         type: "POST",
-        url: '/store',
+        url: 'public/store',
         data: {
                 nom: document.getElementById("firstName3").value,
                 
@@ -34,7 +34,7 @@ $(".number-tab-steps").steps({
         }
         });
         console.log(2);
-        alert("Form submitted1.");
+        alert("Form Validerted1.");
     }
 });
 
@@ -45,10 +45,10 @@ $(".icons-tab-steps").steps({
     transitionEffect: "fade",
     titleTemplate: '<span class="step">#index#</span> #title#',
     labels: {
-        finish: 'Submit'
+        finish: 'Valider'
     },
     onFinished: function (event, currentIndex) {
-        alert("Form submitted0.");
+        alert("Form Validerted0.");
     }
 });
 
@@ -60,10 +60,10 @@ $(".vertical-tab-steps").steps({
     stepsOrientation: "vertical",
     titleTemplate: '<span class="step">#index#</span> #title#',
     labels: {
-        finish: 'Submit'
+        finish: 'Valider'
     },
     onFinished: function (event, currentIndex) {
-        alert("Form submitted.");
+        alert("Form Validerted.");
     }
 });
 
@@ -78,7 +78,7 @@ $(".steps-validation").steps({
     transitionEffect: "fade",
     titleTemplate: '<span class="step">#index#</span> #title#',
     labels: {
-        finish: 'Submit'
+        finish: 'Valider15'
     },
     onStepChanging: function (event, currentIndex, newIndex)
     {

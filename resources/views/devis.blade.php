@@ -10,11 +10,11 @@
     <meta name="keywords"
         content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
     <meta name="author" content="PIXINVENT">
-    <link rel="icon" href="log.png" />
+    <link rel="icon" href="log.jpg" />
     <title>Devis
     </title>
-    <link rel="apple-touch-icon" href="log.png">
-    <link rel="shortcut icon" type="image/x-icon" href="log.png">
+    <link rel="apple-touch-icon" href="log.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="log.jpg">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
         rel="stylesheet">
@@ -40,7 +40,7 @@
 <body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu"
     data-col="2-columns">
     <!-- fixed-top-->
-    <nav
+    <nav 
         class=" header-navbar navbar-expand-sm navbar navbar-with-menu navbar-light navbar-shadow border-grey border-lighten-2">
         <div class="navbar-wrapper">
             <div class="navbar-header">
@@ -53,7 +53,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{route('index')}}" class="navbar-brand nav-link">
-                            <img src="log.png" width="fa-rotate-2700px" alt="branding logo">
+                            <img  src="log.jpg" width="fa-rotate-2700px" alt="branding logo">
                         </a>
                     </li>
                     <li class="nav-item d-md-none float-right"><a data-toggle="collapse" data-target="#navbar-mobile10"

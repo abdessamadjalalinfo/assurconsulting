@@ -1,3 +1,107 @@
+ 
+ <div class="col-lg-2 col-md-2 col-2 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 info">
+        
+                                        <img src="WAZARI.jpg" alt="">
+                                    </span>
+                                </div>
+        
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-2 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 danger"><img src="Coverity.png"
+                                            alt=""></span>
+                                </div>
+        
+                            </div>
+ <div class="col-lg-2 col-md-2 col-12 border-right-blue-grey border-right-lighten-5">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 success"><img src="logo_SPVIE_blanccartouchenoir_0.png" alt=""></span>
+                                </div>
+        
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-12">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 warning"><img src="logo-millicourtage-sansbase.jpg"
+                                            alt=""></span>
+                                </div>
+        
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-12">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 warning"><img src="AESIO_logo.jpg"
+                                            alt=""></span>
+                                </div>
+        
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-12">
+                                <div class="float-left pl-2">
+                                    <span class="font-large-3 text-bold-300 warning"><img src="2MA-MA-MEILLEURE-ASSURANCE-d.png"
+                                            alt=""></span>
+                                </div>
+        
+                            </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  <div class="app-content content">
         <div class="content-wrapper">
             
